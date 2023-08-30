@@ -1,4 +1,3 @@
-
 # Boilerplate TypeScript/Node.js com Jest
 
 Este é um modelo (boilerplate) para iniciar projetos usando TypeScript e Node.js, juntamente com o framework de testes Jest. Usar TypeScript com Node.js fornece verificação de tipos durante o desenvolvimento e aumenta a robustez do código. O Jest é uma ferramenta popular para escrever testes de unidade em JavaScript/TypeScript.
@@ -12,8 +11,7 @@ Siga essas etapas para começar com este boilerplate:
    Comece clonando este repositório para o diretório desejado em seu sistema:
 
    ```bash
-   git clone https://github.com/seu-usuario/boilerplate-typescript-node-jest.git
-   cd boilerplate-typescript-node-jest
+   git clone https://github.com/benetesla/Tesla_CLI_Test.git
    ```
 2. **Instale as Dependências:**
 
@@ -37,7 +35,7 @@ A estrutura do projeto é organizada da seguinte forma:
 Para executar o projeto, você pode usar o seguinte comando:
 
 ```bash
-npm start
+npm  run dev
 ```
 
 Isso executará o arquivo `src/index.ts`.
@@ -47,7 +45,7 @@ Isso executará o arquivo `src/index.ts`.
 Os testes são escritos usando o framework Jest e estão localizados no diretório `tests/`. Para executar os testes, use o seguinte comando:
 
 ```bash
-npm test
+npm  run test
 ```
 
 Isso iniciará a execução dos testes e fornecerá resultados no console.
