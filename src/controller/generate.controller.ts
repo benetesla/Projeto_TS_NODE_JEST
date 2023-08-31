@@ -33,4 +33,4 @@ class GenerateController {
     }
     
 }
-export const gen = new GenerateController();
+export const   Genfile = new GenerateController();
