@@ -2,6 +2,8 @@
 
 Este é um modelo (boilerplate) para iniciar projetos usando TypeScript e Node.js, juntamente com o framework de testes Jest. Usar TypeScript com Node.js fornece verificação de tipos durante o desenvolvimento e aumenta a robustez do código. O Jest é uma ferramenta popular para escrever testes de unidade em JavaScript/TypeScript.
 
+![2023-04-17_18-22-31-4125fb08b0f57c6dba6a99eb91a59ce3](https://github.com/benetesla/Tesla_CLI_Test/assets/78994881/685a374e-1f75-4872-9e5a-65380647331a)
+
 ## Configuração Inicial
 
 Siga essas etapas para começar com este boilerplate:
