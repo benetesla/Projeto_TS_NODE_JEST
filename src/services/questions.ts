@@ -15,9 +15,17 @@ export const question = [
         name: 'techName',
         message: 'What is your favorite programming language?',
         validate(foldername: string) {
-            if (foldername.length) return true;
-            return 'Please enter a folder name';
-
+            if (!foldername) {
+                return 'Please enter a folder name';
+            }
+            if(/[^a-z0-9]/i.test(foldername)){
+                return 'Folder name may only contain alphanumeric characters'
+            }
+            if (foldername === "Tesla_CLI_Test" || foldername ==="projeto_cli"){
+                return 'Folder name is reserved'
+            }
+            return true;
         }
+
     }
 ]
